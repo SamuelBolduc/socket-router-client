@@ -1,0 +1,22 @@
+{
+  "name": "socket-router-client",
+  "version": "0.0.1-alpha",
+  "description": "Client to communicate with socket-server-router",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelBolduc/socket-router-client.git"
+  },
+  "author": "Samuel Bolduc <sam@samuelbolduc.info> (http://samuelbolduc.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamuelBolduc/socket-router-client/issues"
+  },
+  "homepage": "https://github.com/SamuelBolduc/socket-router-client#readme",
+  "dependencies": {
+    "json-socket": "^0.1.2"
+  }
+}
