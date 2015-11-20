@@ -4,6 +4,7 @@ const JsonSocket = require('json-socket');
 
 class SocketClient {
   constructor(config) {
+    if(!config) throw new Error('No config specified');
     if(!config.port) throw new Error('No port specified');
     if(!config.host) throw new Error('No host specified');
     this.serverConfig = {port: config.port, host: config.host};

@@ -1,10 +1,10 @@
 {
   "name": "socket-router-client",
-  "version": "0.0.1-alpha",
+  "version": "1.0.0",
   "description": "Client to communicate with socket-server-router",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,15 @@
     "url": "https://github.com/SamuelBolduc/socket-router-client/issues"
   },
   "homepage": "https://github.com/SamuelBolduc/socket-router-client#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "dependencies": {
     "json-socket": "^0.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "socket-server-router": "^1.4.0"
   }
 }
