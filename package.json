@@ -1,6 +1,6 @@
 {
   "name": "socket-router-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client to communicate with socket-server-router",
   "main": "index.js",
   "scripts": {

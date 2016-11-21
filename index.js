@@ -14,7 +14,10 @@ class SocketClient {
     return new Promise((resolve, reject) => {
       JsonSocket.sendSingleMessageAndReceive(this.serverConfig.port, this.serverConfig.host, msg, (err, res) => {
         if(err) return reject(err);
-        if(res.status == 'error') return reject((res.e && res.e.msg) ? res.e.msg : res.msg);
+        if(res.status === 'error') {
+          console.dir(res, {colors: true});
+          return reject((res.e && res.e.msg) ? res.e.msg : res.msg);
+        }
         return resolve(res.data);
       });
     });
