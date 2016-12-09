@@ -1,6 +1,6 @@
 {
   "name": "socket-router-client",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Client to communicate with socket-server-router",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "json-socket": "github:SamuelBolduc/node-json-socket#fix-error-message"
+    "json-socket": "github:SamuelBolduc/node-json-socket#master"
   },
   "devDependencies": {
     "chai": "^3.4.1",
